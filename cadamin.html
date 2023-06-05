@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="color">
+    <div class="admin-border">
+        <h1>Cadastro de cupons</h2>
+        <div id="admin-text">
+            <input id="cupom-name" type="text" placeholder="Nome do cupom">
+            <input id="cupom-cod" type="text" placeholder="Código do cupom">
+        </div>
+        
+        <p id="cupom-date">Data de vencimento do cupom: </p>
+        <input type="date" id="admin-date">
+        
+        <p id="cupom-date">Horário de vencimento do cupom: </p>
+        <input type="time" id="admin-time">
+            
+        
+        <p id="cupom-date">Porcentagem de desconto: </p>
+        <input id="cupom-discount" type="number">
+
+        <p> <button id="botao">Adicionar</button></p>
+        <p> <button id="loaddado">Carregar dados</button></p>
+           
+            <p id="pos-message"></p>
+            <div id="info-message"></div>
+
+           
+        
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    background-color: black;
+}
+
+.admin-border {
+    text-align: center;
+    margin: 5%;
+    font-family: Roboto Mono;
+    color: white;
+    background-color: hsl(258, 100%, 78%);
+    padding: 2%;
+    border-radius: 15px;
+}
+
+#cupom-name, #cupom-cod, #cupom-discount {
+    height: 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#cupom-date {
+    font-size: 19px;
+}
+
+#admin-date, #admin-time {
+    background-color: aliceblue;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#botao, #loaddado {
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(166, 255, 170);
+}
+
+#botao:hover {
+    background-color: rgb(144, 214, 148);
+}
+
+#pos-message {
+    color: rgb(9, 255, 0);
+    font-size: 25px;
+}
+
+#info-message {
+    background-color: gray;
+    color: white;
+    font-size:18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p > button {
+    height: 2%;
+    width: 6%;
+    background-color: rgb(255, 118, 118);
+    border-radius: 10px;
+}
+
+p > button:hover {
+    background-color: rgb(194, 86, 86);
+}
